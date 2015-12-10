@@ -1,0 +1,7 @@
+resource_equipment_homepage:
+    path:     /
+    defaults: { _controller: ResourceEquipmentBundle:Default:index }
+
+resource_equipment_add:
+    path:     /addEquip
+    defaults: { _controller: ResourceEquipmentBundle:Form:add }
