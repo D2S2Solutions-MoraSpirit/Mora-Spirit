@@ -1,3 +1,7 @@
+database_data_acess:
+    resource: "@DatabaseDataAcessBundle/Resources/config/routing.yml"
+    prefix:   /
+
 resource_equipment:
     resource: "@ResourceEquipmentBundle/Resources/config/routing.yml"
     prefix:   /

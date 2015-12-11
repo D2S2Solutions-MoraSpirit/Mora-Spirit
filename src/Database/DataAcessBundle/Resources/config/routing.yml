@@ -1,0 +1,3 @@
+database_data_acess_homepage:
+    path:     /
+    defaults: { _controller: DatabaseDataAcessBundle:Default:index }

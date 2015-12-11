@@ -5,3 +5,6 @@ resource_equipment_homepage:
 resource_equipment_add:
     path:     /addEquip
     defaults: { _controller: ResourceEquipmentBundle:Form:add }
+resource_equipment_addtoDB:
+    path:     /add
+    defaults: { _controller: ResourceEquipmentBundle:Form:saveEquipment }
